@@ -1,0 +1,37 @@
+# ═══ Python ═══════════════════════════════════════════
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ═══ Virtual Environment ═════════════════════════════
+venv/
+env/
+.venv/
+
+# ═══ Environment Variables ═══════════════════════════
+.env
+
+# ═══ IDE ═════════════════════════════════════════════
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ═══ Runtime Data (auto-generated) ═══════════════════
+data/
+logs/
+models/saved/
+
+# ═══ OS Files ════════════════════════════════════════
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ═══ Jupyter ═════════════════════════════════════════
+.ipynb_checkpoints/

@@ -1,0 +1,31 @@
+# ═══ AI Trading Agent Platform - Requirements ═══
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+
+# Technical Analysis
+# ta-lib  # Requires separate C library installation (optional)
+
+# Machine Learning
+scikit-learn>=1.3.0
+# xgboost>=2.0.0  # Optional - install if needed
+
+# Dashboard
+streamlit>=1.28.0
+
+# WebSocket
+websocket-client>=1.6.0
+
+# Timezone
+pytz>=2023.3
+
+# Scheduling (optional)
+# schedule>=1.2.0
+
+# Backtesting / Historical Data
+yfinance>=0.2.30
+matplotlib>=3.8.0
+
+# Environment variables
+python-dotenv>=1.0.0
