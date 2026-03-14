@@ -240,19 +240,6 @@ All platform settings are managed through `config.py` using Python dataclasses:
 | `RLConfig` | Reinforcement learning settings |
 | `DashboardConfig` | Dashboard host, port, theme |
 | `OptimizerConfig` | Strategy optimization methods |
-
-### Default Trading Parameters
-
-```python
-Initial Capital:     ₹8,000
-Max Daily Loss:      ₹400  (5% of capital)
-Daily Profit Target: ₹600  (7.5% of capital)
-Max Trades/Day:      10
-Min Trade Score:     70/100
-Min AI Probability:  70%
-Min Consensus:       3/4 agents must agree
-```
-
 ---
 
 ## 📖 Documentation
